@@ -1,8 +1,17 @@
+
 import java.sql.*;
 import java.util.Scanner;
 
 public class GetEmployeesPayroll {
+    public GetEmployeesPayroll() {
+    }
     public static void main(String[] args) {
+        Login login = new Login();
+
+        // Authenticate user
+        if (!login.authenticate()) {
+            return; // Exit if authentication fails
+        }
         Scanner scanner = new Scanner(System.in);
 
         // Introduction block
