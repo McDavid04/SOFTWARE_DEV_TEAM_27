@@ -129,7 +129,9 @@ public class GetEmployeesPayroll {
                 EmployeeSearch employeeSearch = new EmployeeSearch();
                 employeeSearch.searchAndEditEmployee();
             } else if (choice == 3) {
-                System.out.println("Update Employee Information feature is not implemented yet.");
+                UpdateEmployee updateEmployee = new UpdateEmployee();
+                updateEmployee.updateEmployeeInfo();
+                System.out.println();
             } else if (choice == 4) {
                 System.out.println("Insert New Employee feature is not implemented yet.");
             } else {
