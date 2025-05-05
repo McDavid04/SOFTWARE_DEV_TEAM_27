@@ -3,8 +3,8 @@ import java.util.Scanner;
 
 public class UpdateEmployee {
     private static final String DB_URL = "jdbc:mysql://localhost:3306/employeeData";
-    private static final String DB_USER = "root";
-    private static final String DB_PASSWORD = "RootUser89@";
+    private static final String DB_USER = "username";
+    private static final String DB_PASSWORD = "password";
 
     public void updateEmployeeInfo() {
         Scanner scanner = new Scanner(System.in);
